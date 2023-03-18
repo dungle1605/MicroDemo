@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 
 var dbSettings = new DatabaseSettings();
-builder.Services.Configure<DatabaseSettings>(options => configuration.GetSection("DatabaseSettings").Bind(dbSettings));
+configuration.Bind("DatabaseSettings", dbSettings);
 builder.Services.AddSingleton(dbSettings);
 builder.Services.AddScoped<ICatalogContext, CatalogContext>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
