@@ -15,11 +15,11 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{78BE8B07-6B78-436E-A2BD-29C38F395E60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "src\Services\Basket\Basket.API\Basket.API.csproj", "{60E66986-EE9F-4D6E-8612-176E61998436}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "src\Services\Basket\Basket.API\Basket.API.csproj", "{60E66986-EE9F-4D6E-8612-176E61998436}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{B38C609B-5ACF-4314-A488-07070DB169FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "src\Services\Discount\Discount.API\Discount.API.csproj", "{C379F128-14B4-4C53-938D-CB21C8E736FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "src\Services\Discount\Discount.API\Discount.API.csproj", "{C379F128-14B4-4C53-938D-CB21C8E736FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Grpc", "src\Services\Discount\Discount.Grpc\Discount.Grpc.csproj", "{F557AF4D-E75C-416F-9658-3C75AB611F99}"
 EndProject
