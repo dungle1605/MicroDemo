@@ -22,7 +22,6 @@ public class CheckoutOrderCommandHandler : IRequestHandler<CheckoutOrderCommand,
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
-
     public async Task<int> Handle(CheckoutOrderCommand request, CancellationToken cancellationToken)
     {
         var orderEntity = _mapper.Map<Order>(request);
