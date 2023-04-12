@@ -29,8 +29,8 @@ public class BasketRepository : IBasketRepository
         return await GetBasket(basket.UserName);
     }
 
-    public Task DeleteBasket(string userName)
+    public async Task DeleteBasket(string userName)
     {
-        throw new NotImplementedException();
+        await _redisCache.RemoveAsync(userName);
     }
 }
